@@ -1,5 +1,5 @@
 {% set name = "kubernetes-cloud-provider-kind" %}
-{% set version = "0.11.1" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/kubernetes-sigs/cloud-provider-kind/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 87a8c713be6b0635f7cd32832c40a929afd93ddffc57a03076a7574bd7dfc43c
+  sha256: 9a9dd366bfe121245cbc456f2b68b5261214299ffc911795bb67a386c5131145
 
 build:
   number: 0
